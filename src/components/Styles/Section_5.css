@@ -1,0 +1,143 @@
+.top5 h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-top: 4rem;
+}
+.top5 p{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 1.6rem;
+    color: rgb(129, 127, 127);
+    padding: 0 20rem;
+    line-height: 2.5rem;
+}
+.bottom5{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5%;
+}
+.bottom5 .comment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 1px 5px 2px rgb(228, 226, 226);
+    border-radius: 20px;
+    margin-left: 4rem;
+}
+.bottom5 .comment1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1rem;
+    height: 8rem;
+    width: auto;
+}
+.bottom5 .comment1 .comment2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    margin-right: 6rem;
+}
+.comment1 .rate{
+    margin-top: 1.2rem;
+    margin-right: 0.5rem;
+}
+.bottom5 .para{
+    padding: 0 2rem;
+}
+.bottom5 .prof1{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+}
+.comment1 img{
+    height: 1rem;
+}
+.flow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.flow .circle{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4.8rem;
+}
+.flow .flowcircle{
+    color: #f53938;
+    height: 1rem;
+    margin-left: 0.5rem;
+}
+.flow .flowwhite{
+    color: #c5c1c1;
+}
+.flow .flowarrow{
+    color: #f53938;
+    height: 3rem;
+    margin-right: 2rem;
+}
+.flowarrow:hover{
+    color:rgb(167, 28, 28);
+}
+
+@media screen and (max-width:700px) and (min-width:420px) {
+
+    .top5 h1{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+    .top5 p{
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        padding: 0 2rem;
+        line-height: 1.5rem;
+    }
+    .bottom5{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 1rem;
+    }
+    .bottom5 .comment{
+        margin: 2rem;
+    }
+    .bottom5 .comment1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 1rem;
+        padding-right: 1rem;
+        height: 8rem;
+        width: auto;
+    }
+    .bottom5 .comment1 .comment2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-top: 1.5rem;
+        margin-right: 6rem;
+    }
+    .comment2 h5{
+        font-size: 1rem;
+    }
+    .bottom5 .para{
+        padding: 0 2rem;
+        font-size: 0.9rem;
+    }
+    .bottom5 .prof1{
+        height: 3rem;
+        width: 3rem;
+    }
+    .flow{
+        margin-top: 1rem;
+    }
+    .flow .circle{
+        margin-left: 2rem;
+    }
+    .flow .flowarrow{
+        height: 2rem;
+        margin-bottom: 2.5rem;
+    }
+}
